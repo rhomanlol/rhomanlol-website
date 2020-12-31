@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "DOCK11";
+    src: url("./webfonts/DOCK11-Heavy.eot")
+         url("./webfonts/DOCK11-Heavy.woff2") format("woff2"),
+         url("./webfonts/DOCK11-Heavy.woff") format("woff"),
+         url("./webfonts/DOCK11-Heavy.ttf")  format("truetype"),
+         url("./webfonts/DOCK11-Heavy.svg") format("svg");
+}
+
+i {
+    color:  #353535;
+    font-size: 2.4em;
+    transition: 0.2s;
+}
+
+
+h1 {
+    font-family: "DOCK11";
+    font-size: 2em;
+    cursor: default;
+    position: relative;
+}
+
+h3 {
+    font-family: "DOCK11";
+    font-size: 3em;
+    color: white;
+    cursor: default;
+}
+
+.spacer {
+    margin-top: 50px;
+}
+
+.footer {
+    background-color:#363636;
+    color:white;
+    padding:3em;
+    
+}
